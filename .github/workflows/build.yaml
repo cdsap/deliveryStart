@@ -34,6 +34,6 @@ jobs:
           java-version: 23
 
       - name: Check build-logic
-        run: ./gradlew assembleDebug
+        run: ./gradlew lintDebug
         env:
            DEVELOCITY_ACCESS_KEY: ${{ secrets.DV_ACCESS_KEY }}
