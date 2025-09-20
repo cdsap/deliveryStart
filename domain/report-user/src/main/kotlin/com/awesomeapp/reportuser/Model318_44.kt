@@ -1,0 +1,7 @@
+package com.awesomeapp.reportuser
+
+data class Model318_44(
+    val id: String = "Model318_44-1758327949184",
+    val name: String = "Model for Model318_44",
+    val description: String = "Description for Model318_44"
+)

@@ -1,0 +1,7 @@
+package com.awesomeapp.metric
+
+data class Model27_44(
+    val id: String = "Model27_44-1758327946874",
+    val name: String = "Model for Model27_44",
+    val description: String = "Description for Model27_44"
+)
