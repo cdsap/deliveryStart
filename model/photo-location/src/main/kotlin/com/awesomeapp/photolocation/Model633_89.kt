@@ -1,0 +1,7 @@
+package com.awesomeapp.photolocation
+
+data class Model633_89(
+    val id: String = "Model633_89-1758409934259",
+    val name: String = "Model for Model633_89",
+    val description: String = "Description for Model633_89"
+)

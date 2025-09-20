@@ -1,0 +1,7 @@
+package com.awesomeapp.weatherpost
+
+data class Model529_55(
+    val id: String = "Model529_55-1758409933266",
+    val name: String = "Model for Model529_55",
+    val description: String = "Description for Model529_55"
+)

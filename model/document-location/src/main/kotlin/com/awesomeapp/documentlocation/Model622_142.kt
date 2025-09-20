@@ -1,0 +1,7 @@
+package com.awesomeapp.documentlocation
+
+data class Model622_142(
+    val id: String = "Model622_142-1758409934234",
+    val name: String = "Model for Model622_142",
+    val description: String = "Description for Model622_142"
+)

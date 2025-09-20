@@ -1,0 +1,7 @@
+package com.awesomeapp.pushsync
+
+data class Model687_44(
+    val id: String = "Model687_44-1758409934949",
+    val name: String = "Model for Model687_44",
+    val description: String = "Description for Model687_44"
+)

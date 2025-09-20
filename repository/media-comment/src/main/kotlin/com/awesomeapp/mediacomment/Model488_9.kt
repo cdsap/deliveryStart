@@ -1,0 +1,7 @@
+package com.awesomeapp.mediacomment
+
+data class Model488_9(
+    val id: String = "Model488_9-1758409932797",
+    val name: String = "Model for Model488_9",
+    val description: String = "Description for Model488_9"
+)

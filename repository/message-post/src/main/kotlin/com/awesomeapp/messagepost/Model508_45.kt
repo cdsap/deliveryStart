@@ -1,0 +1,7 @@
+package com.awesomeapp.messagepost
+
+data class Model508_45(
+    val id: String = "Model508_45-1758409933008",
+    val name: String = "Model for Model508_45",
+    val description: String = "Description for Model508_45"
+)

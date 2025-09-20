@@ -1,0 +1,7 @@
+package com.awesomeapp.mappost
+
+data class Model528_52(
+    val id: String = "Model528_52-1758409933265",
+    val name: String = "Model for Model528_52",
+    val description: String = "Description for Model528_52"
+)

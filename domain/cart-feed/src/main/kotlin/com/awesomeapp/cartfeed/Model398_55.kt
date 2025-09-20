@@ -1,0 +1,7 @@
+package com.awesomeapp.cartfeed
+
+data class Model398_55(
+    val id: String = "Model398_55-1758409931981",
+    val name: String = "Model for Model398_55",
+    val description: String = "Description for Model398_55"
+)

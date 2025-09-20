@@ -1,0 +1,7 @@
+package com.awesomeapp.sessionfeed
+
+data class Model414_20(
+    val id: String = "Model414_20-1758409932113",
+    val name: String = "Model for Model414_20",
+    val description: String = "Description for Model414_20"
+)

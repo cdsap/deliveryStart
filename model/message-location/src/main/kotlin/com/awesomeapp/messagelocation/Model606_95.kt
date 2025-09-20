@@ -1,0 +1,7 @@
+package com.awesomeapp.messagelocation
+
+data class Model606_95(
+    val id: String = "Model606_95-1758409934066",
+    val name: String = "Model for Model606_95",
+    val description: String = "Description for Model606_95"
+)
