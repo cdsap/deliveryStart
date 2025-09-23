@@ -33,6 +33,9 @@ jobs:
           distribution: 'zulu'
           java-version: 23
 
+      - name: Process Watcher 
+        uses: cdsap/build-process-watcher@v0.2
+  
       - name: Check build-logic
         run: ./gradlew assembleDebug
         env:
