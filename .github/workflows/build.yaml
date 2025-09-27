@@ -34,7 +34,7 @@ jobs:
           java-version: 23
 
       - name: Process Watcher 
-        uses: cdsap/build-process-watcher@ingest_data
+        uses: cdsap/build-process-watcher@ingest-data
   
       - name: Check build-logic
         run: ./gradlew :help
