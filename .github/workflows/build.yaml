@@ -21,7 +21,7 @@ jobs:
       pull-requests: write
       security-events: write
 
-    timeout-minutes: 60
+    timeout-minutes: 59
 
     steps:
       - name: Checkout
