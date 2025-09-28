@@ -35,6 +35,9 @@ jobs:
 
       - name: Process Watcher 
         uses: cdsap/build-process-watcher@ingest-data
+        with:
+           backend_url: ${{ secrets.BACKEND_URL }}
+           enable_backend: true
   
       - name: Check build-logic
         run: ./gradlew :help
