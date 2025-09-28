@@ -36,9 +36,10 @@ jobs:
       - name: Process Watcher 
         uses: cdsap/build-process-watcher@ingest-data
         with:
-           backend_url: ${{ secrets.BACKEND_URL }}
+           backend_url: https://build-process-monitor-685615422311.us-central1.run.app
            enable_backend: true
-  
+           run_id: ${{ github.run_id }}        
+           
       - name: Check build-logic
         run: ./gradlew :help
         env:
