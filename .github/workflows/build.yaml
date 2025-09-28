@@ -34,7 +34,7 @@ jobs:
           java-version: 23
 
       - name: Process Watcher 
-        uses: cdsap/build-process-watcher@ingest-data
+        uses: cdsap/build-process-watcher@ingest-data/action_with_backend.yaml
         with:
            backend_url: https://build-process-monitor-685615422311.us-central1.run.app
            enable_backend: true
