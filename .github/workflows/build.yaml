@@ -13,7 +13,7 @@ concurrency:
 
 jobs:
   test_and_apk:
-    name: "Local 27- tests and APKs"
+    name: "Local 29- tests and APKs"
     runs-on: ubuntu-latest
 
     permissions:
