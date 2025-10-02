@@ -13,7 +13,7 @@ concurrency:
 
 jobs:
   test_and_apk:
-    name: "Local tests and APKs"
+    name: "Local 32- tests and APKs"
     runs-on: ubuntu-latest
 
     permissions:
@@ -21,7 +21,7 @@ jobs:
       pull-requests: write
       security-events: write
 
-    timeout-minutes: 60
+    timeout-minutes: 59
 
     steps:
       - name: Checkout
@@ -33,7 +33,14 @@ jobs:
           distribution: 'zulu'
           java-version: 23
 
+      - name: Process Watcher 
+        uses: cdsap/build-process-watcher@ingest-data
+        with:
+           backend_url: https://build-process-watcher-backend-685615422311.us-central1.run.app
+           enable_backend: true
+           run_id: ${{ github.run_id }}        
+           
       - name: Check build-logic
-        run: ./gradlew assembleDebug
+        run: ./gradlew :help
         env:
            DEVELOCITY_ACCESS_KEY: ${{ secrets.DV_ACCESS_KEY }}
