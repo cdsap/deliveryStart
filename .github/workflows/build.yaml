@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - xlarge
+      - main
   pull_request:
 
 concurrency:
@@ -13,7 +13,7 @@ concurrency:
 
 jobs:
   test_and_apk:
-    name: "Local 32- tests and APKs"
+    name: "Local 40- tests and APKs"
     runs-on: ubuntu-latest
 
     permissions:
@@ -41,6 +41,6 @@ jobs:
            run_id: ${{ github.run_id }}        
            
       - name: Check build-logic
-        run: ./gradlew :help
+        run: ./gradlew assembleDebug
         env:
            DEVELOCITY_ACCESS_KEY: ${{ secrets.DV_ACCESS_KEY }}
