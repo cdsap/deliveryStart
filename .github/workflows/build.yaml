@@ -41,6 +41,6 @@ jobs:
            run_id: ${{ github.run_id }}        
            
       - name: Check build-logic
-        run: ./gradlew assembleDebug
+        run: ./gradlew lintDebug
         env:
            DEVELOCITY_ACCESS_KEY: ${{ secrets.DV_ACCESS_KEY }}
