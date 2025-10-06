@@ -36,7 +36,7 @@ jobs:
       - name: Process Watcher 
         uses: cdsap/build-process-watcher@ingest-data
         with:
-           remote_monitor: true
+           remote_monitoring: true
            
       - name: Check build-logic
         run: ./gradlew help
