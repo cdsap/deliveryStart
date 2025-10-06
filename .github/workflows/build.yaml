@@ -36,11 +36,9 @@ jobs:
       - name: Process Watcher 
         uses: cdsap/build-process-watcher@ingest-data
         with:
-           backend_url: https://build-process-watcher-backend-685615422311.us-central1.run.app
-           enable_backend: true
-           run_id: ${{ github.run_id }}        
+           remote-monitoring: true
            
       - name: Check build-logic
-        run: ./gradlew lintDebug
+        run: ./gradlew assembleDebug
         env:
            DEVELOCITY_ACCESS_KEY: ${{ secrets.DV_ACCESS_KEY }}
