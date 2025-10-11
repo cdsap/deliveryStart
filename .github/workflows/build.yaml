@@ -37,6 +37,7 @@ jobs:
         uses: cdsap/build-process-watcher@update_actions
         with:
            remote_monitoring: true
+           debug: true
            
       - name: Check build-logic
         run: ./gradlew assembleDebug
