@@ -34,7 +34,7 @@ jobs:
           java-version: 23
 
       - name: Process Watcher 
-        uses: cdsap/build-process-watcher@ingest-data
+        uses: cdsap/build-process-watcher@update_actions
         with:
            remote_monitoring: true
            
