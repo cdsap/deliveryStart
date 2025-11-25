@@ -42,6 +42,6 @@ jobs:
             collect_gc: true      
 
       - name: Check build-logic
-        run: ./gradlew help
+        run: ./gradlew assembleRelease
         env:
            DEVELOCITY_ACCESS_KEY: ${{ secrets.DV_ACCESS_KEY }}
