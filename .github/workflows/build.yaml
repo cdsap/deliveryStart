@@ -33,7 +33,7 @@ jobs:
           distribution: 'zulu'
           java-version: 23
 
-      - name: Process Watcher 
+      - name: Processs Watcher 
         uses: cdsap/build-process-watcher@v0.4.0
         with:
             remote_monitoring: true
