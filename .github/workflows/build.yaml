@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - xlarge2
+      - xlarge3
   pull_request:
 
 concurrency:
